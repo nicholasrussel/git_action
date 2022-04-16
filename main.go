@@ -1,7 +1,7 @@
 package main
 
 import (
-	controllers "PRAKMINGGU2/controllers"
+	controllers "git_action/controllers"
 	"log"
 	"net/http"
 
