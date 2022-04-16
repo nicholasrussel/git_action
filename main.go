@@ -37,7 +37,7 @@ func main() {
 	//login
 	router.HandleFunc("/users/login", controllers.Login).Methods("POST")
 
-	log.Println("Starting web on port")
+	log.Println("Hello world")
 	http.ListenAndServe(":8000", router)
 
 }
