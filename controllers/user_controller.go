@@ -24,7 +24,7 @@ func GetAllUsers(w http.ResponseWriter, r *http.Request) {
 	db := Connect()
 	defer db.Close()
 
-	querry := "SELECT * FROM users"
+	querry := "SELECT ID,name,age,address FROM users"
 	rows, err := db.Query(querry)
 
 	if err != nil {
