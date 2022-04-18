@@ -38,6 +38,8 @@ func main() {
 	router.HandleFunc("/users/login", controllers.Login).Methods("POST")
 
 	log.Println("Hello World!")
+	log.Println("Hello World!")
+	log.Println("Hello World!")
 	http.ListenAndServe(":8000", router)
 
 }
